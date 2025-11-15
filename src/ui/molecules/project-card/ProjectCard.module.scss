@@ -1,0 +1,19 @@
+.wrapper {
+  border-radius: 1rem;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  padding: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  @media screen and (min-width: 1024px) {
+    width: 408px;
+
+  }
+}
+

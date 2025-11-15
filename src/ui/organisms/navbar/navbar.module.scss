@@ -1,0 +1,62 @@
+@import '../../../app/variables';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  transition: all 0.3s;
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .navItems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $textColor;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $hoverColor;
+    }
+  }
+}
+
+.scrolled {
+  background-color: $backgroundColorScrolled;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .navItems a {
+    color: $textColorScrolled;
+  }
+}

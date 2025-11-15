@@ -1,0 +1,40 @@
+{
+  "name": "speclarify-fe",
+  "version": "0.1.0",
+  "description": "AI-powered platform to simplify complex documents into concise summaries and key insights.",
+  "author": "Ali Eren Yoğurtçu",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predev": "ts-node --project ./tsconfig.node.json ./scripts/genAntdCss.tsx",
+    "prebuild": "cross-env NODE_ENV=production ts-node --project ./tsconfig.node.json ./scripts/genAntdCss.tsx"
+  },
+  "dependencies": {
+    "@ant-design/static-style-extract": "^1.0.2",
+    "antd": "^5.10.0",
+    "axios": "^1.5.1",
+    "next": "13.5.4",
+    "openai": "^4.11.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "zustand": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "homePage": {
+    "heroSection": {
+      "mainHeadline": "Transforming Software Requirements with AI",
+      "subHeadline": "Enhance clarity, efficiency, and precision in your software development process.",
+      "buttonText": "Get Started"
+    },
+    "featuresOverview": {
+      "headline": "Why SpeClarify?",
+      "features": [
+        {
+          "title": "Duplicate Detection",
+          "description": "Automatically identify and eliminate duplicate requirements for streamlined project planning."
+        },
+        {
+          "title": "Ambiguity Resolution",
+          "description": "Pinpoint and clarify ambiguous requirements, ensuring clear project objectives and deliverables."
+        },
+        {
+          "title": "Prioritization Aid",
+          "description": "Efficiently prioritize requirements based on project goals and stakeholder inputs."
+        },
+        {
+          "title": "Requirement Classification",
+          "description": "Classify and organize requirements for better management and execution."
+        }
+      ]
+    },
+    "howItWorks": {
+      "headline": "Simplify Your Software Engineering Process",
+      "steps": [
+        "Upload your SRS Document",
+        "AI-Powered Analysis",
+        "Review and Implement Suggestions"
+      ]
+    },
+    "benefitsSection": {
+      "headline": "Streamline Your Development with SpeClarify",
+      "benefits": [
+        "Save Time and Resources",
+        "Enhance Project Accuracy",
+        "Improve Overall Project Outcomes"
+      ]
+    },
+    "testimonials": {
+      "headline": "Trusted by Software Professionals",
+      "testimonials": [
+        {
+          "quote": "SpeClarify revolutionized how we handle project requirements. It's a game-changer!",
+          "author": "Jane Doe, Project Manager"
+        },
+        {
+          "quote": "The precision and efficiency of SpeClarify have significantly improved our development process.",
+          "author": "John Smith, Lead Developer"
+        }
+      ]
+    },
+    "ctaBanner": {
+      "text": "Ready to Enhance Your Software Engineering Process?",
+      "buttonText": "Start Your Free Trial"
+    },
+    "footer": {
+      "quickLinks": [
+        "Home",
+        "About Us",
+        "Product",
+        "Solutions",
+        "Resources",
+        "Support",
+        "Account"
+      ],
+      "socialMedia": [
+        "Facebook",
+        "Twitter",
+        "LinkedIn"
+      ],
+      "newsletterSignup": "Sign Up for Our Newsletter",
+      "contactInfo": "Contact Us"
+    }
+  },
+  "loginPage": {
+    "headline": "Welcome Back",
+    "subHeadline": "Log in to your account",
+    "formLabels": {
+      "email": "Email Address",
+      "password": "Password"
+    },
+    "formPlaceholders": {
+      "email": "Enter your email",
+      "password": "Enter your password"
+    },
+    "formButtons": {
+      "login": "Log In",
+      "forgotPassword": "Forgot Password?"
+    },
+    "signupPrompt": {
+      "text": "Don't have an account?",
+      "linkText": "Sign Up"
+    }
+  }
+}

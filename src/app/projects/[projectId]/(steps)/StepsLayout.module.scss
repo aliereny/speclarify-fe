@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+}

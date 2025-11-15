@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ant-btn, .ant-typography, .ant-flex, .ant-menu-title-content, .ant-steps-item-title {
+  font-family: inherit !important;
+}
+
+.electric-blue {
+  color: #007BFF !important;
+}
+
+.charcoal-grey {
+  color: #333B3F !important;
+}
+
+.mint-green {
+  color: #3EB489 !important;
+}
+
+.soft-white {
+  color: #F8F9FA !important;
+}
+
+.warm-yellow {
+  color: #FFC107 !important;
+}
+
+.slate-blue {
+  color: #6C757D !important;
+}
+
+.light-grey {
+  color: #E9ECEF !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 640px) {
+    max-width: 640px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1024px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}
